@@ -9,6 +9,10 @@ git:
   depth: 3
 script:
   - yarn build
+notifications:
+  email:
+    recipients:
+      - luis_gcx@hotmail.com
 deploy:
   provider: pages
   skip-cleanup: true
